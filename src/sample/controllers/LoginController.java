@@ -19,7 +19,7 @@ public class LoginController implements Initializable {
 
     public void handleLoginButtonAction(ActionEvent actionEvent) throws IOException {
         Stage stage = (Stage) ((Node)actionEvent.getSource()).getScene().getWindow();
-        Parent root = FXMLLoader.load(getClass().getResource("../views/create-note.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("../views/ListNote.fxml"));
         stage.setScene(new Scene(root, 500, 450));
         stage.setTitle("Note Taking Application");
         stage.show();

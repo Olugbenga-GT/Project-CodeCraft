@@ -7,7 +7,7 @@
 <?import javafx.scene.text.Text?>
 <?import javafx.scene.control.TextArea?>
 <?import javafx.scene.layout.HBox?>
-<GridPane fx:controller="sample.controllers.NewNoteController"
+<GridPane fx:controller="sample.controllers.CreateNoteController" style="-fx-background-color: #169c8e"
           xmlns:fx="http://javafx.com/fxml" alignment="center" hgap="10" vgap="10">
 
     <!--<gridLinesVisible>true</gridLinesVisible>-->
