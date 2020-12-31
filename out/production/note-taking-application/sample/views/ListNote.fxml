@@ -6,7 +6,7 @@
 <?import javafx.geometry.*?>
 <?import javafx.scene.control.Button?>
 
-<GridPane fx:controller="sample.controllers.ListNotesController" style="-fx-background-color: default"
+<GridPane fx:controller="sample.controllers.ListNotesController" style="-fx-background-color: #169c8e"
           xmlns:fx="http://javafx.com/fxml" alignment="center" hgap="10" vgap="10">
 <padding><Insets top="5" right="25" bottom="10" left="25"/></padding>
 
